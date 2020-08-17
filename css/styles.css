@@ -1,0 +1,193 @@
+/*****ID Selectors*****/
+#title {
+  background-color: #ff4c68;
+  position: relative;
+}
+#features {
+  background-color: #fff;
+  padding: 7.5% 15%;
+  position: relative;
+  z-index: 1;
+}
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+#press {
+  background-color: #ef8172;
+  position: relative;
+  padding-bottom: 3%;
+  text-align: center;
+}
+#pricing {
+  padding: 5rem;
+  background-color: white;
+  text-align: center;
+}
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7.5% 15%;
+  text-align: center;
+}
+#footer {
+  background-color: #fff;
+  padding: 5% 4% 2%;
+  text-align: center;
+}
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+/*****Tag Selectors*****/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+#footer a {
+  margin: 20px 10px;
+}
+#footer p:hover {
+  color: #fd5068;
+}
+h1 {
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#cta h3 {
+  font-size: 3rem;
+}
+p {
+  color: #8f8f8f;
+}
+/*****Class Selectors*****/
+.container-fluid {
+  padding: 3% 15% 16.9%;
+}
+.card:hover {
+  color: #fd5068;
+}
+/* features section row col */
+.fecol {
+  text-align: center;
+}
+.fecol:hover {
+  color: #fd5068;
+}
+
+.ficon {
+  color: #ef8172;
+  font-size: 3.5rem;
+  padding: 2rem;
+}
+
+.ficon:hover {
+  color: #ff4c68;
+}
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: large;
+  font-weight: 100;
+}
+/* download button */
+.dwnbtn {
+  margin: 5% 5% 0 0;
+}
+/* title image */
+.title-img {
+  width: 60%;
+  padding-top: 1.2rem;
+  position: absolute;
+  top: 2.5rem;
+  left: 5rem;
+  transform: rotate(25deg);
+}
+/* testomonial image */
+.test-img {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+/* press logos */
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+/* carousel padding */
+.carousel-item {
+  padding: 7.5% 15%;
+}
+/*pricing*/
+.price-col {
+  padding: 3% 2%;
+}
+.prow {
+  display: inherit;
+}
+/* Media Query Responsive */
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+  #title h1 {
+    width: 72%;
+    margin: auto;
+  }
+  #footer p {
+    font-size: 0.8rem;
+  }
+  h3 {
+    font-size: 1.85rem;
+  }
+  p {
+    font-size: 1.45rem;
+  }
+  #press {
+    bottom: 3px;
+  }
+  .container-fluid {
+    padding: 3% 15%;
+  }
+  .navbar {
+    text-align: justify;
+  }
+  .navbar-brand {
+    font-size: 2.2rem;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+  }
+  .navbar-toggler-icon {
+    font-size: 1.5rem;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+  #testimonials h2 {
+    font-size: 2.2rem;
+  }
+}
